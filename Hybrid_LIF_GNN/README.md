@@ -30,4 +30,4 @@ python train_SGNet_location_batch_sd.py --data_dir <preporcessed data dir> --sam
 ```
 
 ## Credits
-The codes of this work are based on [TactileSGNet](https://github.com/clear-nus/TactileSGNet) and [STBP](https://github.com/yjwu17/BP-for-SpikingNN).
+The codes of this work are based on [TactileSGNet](https://github.com/clear-nus/TactileSGNet) and [STBP](https://github.com/yjwu17/BP-for-SpikingNN). Please consider citing these works if you use the codes.
