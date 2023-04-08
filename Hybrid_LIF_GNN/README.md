@@ -2,7 +2,9 @@
 
 ## Requirements
 torch-geometric==1.7.2
+
 torch-scatter==2.0.8
+
 torch-sparse==0.6.11
 
 Please make sure you use the versions above to reproduce the results.
