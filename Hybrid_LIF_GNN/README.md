@@ -17,6 +17,14 @@ You may install any necessary packages in the `requirements.txt` with `pip insta
 
 ## Experiments
 
+### Objects-v1 and Containers-v1
+
 ```bash
-python train_SGNet --epoch 500 --lr 0.001 --sample_file 1 --batch_size 8 --fingers both --data_dir <preporcessed data dir> --hidden_size 32 --loss NumSpikes --mode location --network_config <network_config>/container_weight_location.yml  --task cw --checkpoint_dir <checkpoint dir>
+python train_SGNet_location_batch.py --data_dir <preporcessed data dir> --sample_file 1
+```
+
+### Slip detection
+
+```bash
+python train_SGNet_location_batch_sd.py --data_dir <preporcessed data dir> --sample_file 1
 ```
